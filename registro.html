@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="./css/registro.css">
+    <title>registro</title>
+</head>
+<body>
+    <div class="home">
+    <header>
+        <img src="img/logo.png" alt="">
+         <nav>
+             <ul class="lista1">
+                 <li><a href="">Smartphones</a></li>
+                 <li><a href="">Tablets</a></li>
+                 <li><a href="">Computadoras</a></li>
+            </ul>
+            <ul class="lista2">
+                <li><a href="login.html">login</a></li>
+                <li><a href="registro.html">registro</a>
+            </li>
+            </ul>
+         </nav>
+    </header>
+<H1>REGISTRATE</H1><br><form action="registro.html" method="post">
+
+  <p><label for="nombre">Nombre</label></p>
+  <p><input type = "text" id ="nombre"  name ="nombre" required></p><br>
+  
+  <p>
+    <label for="email">Email</label><br>
+ <input type ="email" id ="email"  name ="email" required>
+ </p><br>
+
+  <p><label for="password">Contraseña</label></p>
+  <p><input type = "password" id ="password"  name ="password"required></p><br>
+
+  <h3 id="titulo3">Pais de nacimiento</h3>
+        <select name="nacionalidad">
+               <p>  <option value="Ar">Argentina</option>
+                <option value="Ch">Chile</option>
+                <option value="Uy">Uruguay</option>
+                <option value="Br">Brasil</option>
+                <option value="Pr">Peru</option>
+                <option value="Py">Paraguay</option></select><br><br></p>
+
+                <p><h3>Género</h3>
+                  
+                    <label><input type="radio" name="genero"  value="masculino"> Masculino</label>
+                
+                    <label><input type="radio" name="genero" value="femenino"> Femenino</label>
+                    <label><input type="radio" name="genero" value="prefiero no decirlo"> prefiero no decirlo</label>
+                  </p><br>
+                  <p>
+                      <h3>Hobbies</h3>
+         <input type="checkbox" name="hobbies" value="pintar"><label>Pintar</label>
+         <input type="checkbox" name="hobbies" value="Guitarra"><label>Guitarra</label>
+
+        <input type="checkbox" name="hobbies" value="Futbol"><label>Fútbol </label>
+
+        <input type="checkbox" value="carpinteria"><label>Tenis </label>
+
+        <input type="checkbox" value="Programación"><label>Programación </label><br>
+                  </p><br><p><h3>Dejános tus comentarios</h3><br>
+                  <div class="mensaje"><textarea name="mensaje" id="" cols="30" rows="10"></textarea></div>
+                  <br>
+                  <input type="checkbox" 
+                  
+                  
+                   value="Acepto los términos y condiciones." required><label>Acepto los términos y condiciones. <br>
+                    <br></p>
+
+                    <ul><p><button type="submit" >Registrarme</button>
+                    <button type="reset" >Cancelar</button></p></ul>
+
+
+</form>
+</div>
+</body>
+</html>
